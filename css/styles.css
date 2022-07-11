@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.invisible{
+    display: none;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    
+}
+
+.card{
+    border-radius: 20px;
+    background-color: rgb(202, 201, 201);
+    display: grid;
+    justify-items: center;
+}
